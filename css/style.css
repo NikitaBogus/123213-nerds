@@ -1,0 +1,36 @@
+
+
+.main-navigation {
+	font-size: 14px;
+	color: black;
+	font-family: "Roboto Medium";
+	line-height: 30px;
+	font-weight: medium ;
+	
+}
+.basket {
+	font-size: 14px;
+	color: black;
+	font-family: "Roboto Medium";
+	line-height: 30px;
+	font-weight: medium ;
+}
+
+.slider>h2 {
+	font-size: 36px;
+	color: black;
+	font-family: "Roboto Medium";
+	line-height: 36px;
+	font-weight: medium ;
+}
+
+.slider>h3 {
+	font-size: 16px;
+	color: black;
+	font-family: "Roboto Medium";
+	line-height: 22px;
+	font-weight: medium ;
+}
+
+
+
