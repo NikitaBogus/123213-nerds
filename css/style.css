@@ -1,3 +1,42 @@
+body {
+	font-size: 16px;
+	color: black;
+	font-family: "Roboto Medium";
+	line-height: 22px;
+	font-weight: medium ;
+	background-color: white;
+	min-height: 2256px; 
+	min-width: 1200px;
+	padding: 0px;
+	margin: 0px;
+
+}
+
+
+
+
+
+.container {
+	width: 880px;
+	padding: 0 10px;
+	margin: 0 auto;
+	background-color:red;
+	
+
+
+}
+
+
+.logo {
+
+min-height: 70px;
+min-width: 78px;
+background-color: white;
+float: left;
+
+
+}
+
 
 
 .main-navigation {
@@ -5,7 +44,11 @@
 	color: black;
 	font-family: "Roboto Medium";
 	line-height: 30px;
-	font-weight: medium ;
+	font-weight: medium;
+	min-height: 70px;
+	background-color: yellow;
+	width: 470px;
+	float: left;
 	
 }
 .basket {
@@ -14,8 +57,36 @@
 	font-family: "Roboto Medium";
 	line-height: 30px;
 	font-weight: medium ;
+	min-height: 70px;
+	background-color: brown;
+	width: 110px;
+	float: right;
+}
+.slider {
+	width: 880px;
+	float:left;
+	background-color: green;
+
+
+}
+.main-header {
+	margin-bottom: 60px;
+
 }
 
+
+.main-offer {
+
+	margin-top: 60px;
+	background-color: white;
+
+}
+
+
+.about-us{
+	margin-top: 60px;
+	background-color: pink;
+}
 .slider>h2 {
 	font-size: 36px;
 	color: black;
