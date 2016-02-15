@@ -1,107 +1,165 @@
+html, body {
+    margin:0;
+    padding:0;
+}
 body {
-	font-size: 16px;
-	color: black;
-	font-family: "Roboto Medium";
-	line-height: 22px;
-	font-weight: medium ;
-	background-color: white;
-	min-height: 2256px; 
-	min-width: 1200px;
-	padding: 0px;
-	margin: 0px;
-
+    width:1200px;
+    min-height:2256px;
+    font-family:'Arial', sans-serif;
+    font-size:10px;
+    color: black;
 }
 
-
-
-
+.clearfix:after {
+    content:'';
+    clear:both;
+    display:table;
+}
 
 .container {
-	width: 880px;
-	padding: 0 10px;
-	margin: 0 auto;
-	background-color:red;
-	
+  width: 878px;
+  margin: 0 auto;
+  padding: 0 10px; 
+  
+}
 
-
+.main-header {
+	margin-bottom: 60px;
+	background-image: url(img/sliderbackground.png); 
+	background-repeat: repeat;
 }
 
 
 .logo {
-
-min-height: 70px;
-min-width: 78px;
-background-color: white;
-float: left;
-
-
+	width: 140px;
+	padding: 0 10px;
+	min-height: 70px;
+	float: left;
 }
 
-
-
 .main-navigation {
-	font-size: 14px;
-	color: black;
-	font-family: "Roboto Medium";
-	line-height: 30px;
-	font-weight: medium;
 	min-height: 70px;
-	background-color: yellow;
-	width: 470px;
+	width: 570px;
+	float: left;
+}
+
+.basket {
+	min-height: 70px;
+	width: 90px;
+	float: right;
+}
+
+.slider {
+	min-height: 340px;
+	width: 880px;
 	float: left;
 	
 }
-.basket {
-	font-size: 14px;
-	color: black;
-	font-family: "Roboto Medium";
-	line-height: 30px;
-	font-weight: medium ;
-	min-height: 70px;
-	background-color: brown;
-	width: 110px;
-	float: right;
-}
-.slider {
-	width: 880px;
-	float:left;
-	background-color: green;
+
+
+
+
+
+
+
+article:first-child {
+
+float: left;
+width: 260px;
+
+
 
 
 }
-.main-header {
-	margin-bottom: 60px;
+
+article:second-child {
+
+float: left;
+margin-left: 10px;
 
 }
 
+article:last-child {
 
+float: right;
+margin-top: -255px;
+margin-right: 120px;
+
+
+
+
+
+}
 .main-offer {
-
-	margin-top: 60px;
-	background-color: white;
-
+	margin-top: 20px;
+	min-height: 426px;
+	width: 880px;
 }
 
 
-.about-us{
-	margin-top: 60px;
-	background-color: pink;
-}
-.slider>h2 {
-	font-size: 36px;
-	color: black;
-	font-family: "Roboto Medium";
-	line-height: 36px;
-	font-weight: medium ;
+
+.we-are {
+	float: left;
+	width: 880px;
+	margin-top: 100px;
+	
+	
 }
 
-.slider>h3 {
-	font-size: 16px;
-	color: black;
-	font-family: "Roboto Medium";
-	line-height: 22px;
-	font-weight: medium ;
+.execute-orders {
+	float: left;
+	margin-left: 1px;
+	
+	
+
+}
+
+.logo-nerds2{
+	float: rigth;
+	width: 128px;
+	margin-left: 700px;
+	margin-top: -150px;
+	
+	
+}
+.we-work {
+	float: right;
+	margin-left: 550px;
+	margin-top: -100px;
+	
 }
 
 
+.glukhanko {
+  float: left;
+  width: 100px;
+  padding: 35px;
+
+}
+
+.htmlacademy {
+	float: left;
+	 width: 100px;
+     padding: 35px;
+	 margin-left: 170px;
+}
+
+.borodinski {
+	float: right;
+	 width: 100px;
+  padding: 35px;
+}
+
+.background-img {
+
+	width: 570px;
+	clear:both;
+}
+
+
+.footer-contacts {
+
+}
+
+.
 
